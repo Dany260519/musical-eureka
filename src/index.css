@@ -1,13 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 5px;
+  background-image: url('https://img.freepik.com/vector-gratis/fondo-digital-codigo-binario-estilo-matriz-numeros-que-caen_1017-25336.jpg?w=740&t=st=1685227140~exp=1685227740~hmac=27ab5ba8fcbbf06d86fdb5f014362306df4b73b39dd986141375df67f9da80f5');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#header {
+  margin-top: 15%;
+  margin-bottom: 3%;  
+}
+
+
+.buttons, .answer, .putTheNumber {
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  color: greenyellow;
+  text-shadow: 3px 5px 5px rgba(155, 250, 3, 0.693);
+}
+
+.buttons {
+  color: greenyellow;
+  background: rgb(47, 48, 48);
+  border: 3px rgba(141, 249, 17, 0.763) groove;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 3px 5px 5px rgba(155, 250, 3, 0.693);
+}
+
+#start{
+  margin: 20% 20%;
+}
+
+.putTheNumber {
+  border-radius: 50px;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  font-size: 40px;
+  background: rgb(47, 48, 48);
+  cursor: pointer;
 }
